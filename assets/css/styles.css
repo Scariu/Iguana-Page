@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.desc-section {
+    background-color: #000000;
+}
+
+p {
+    color:#ffffff;
+}
+
+.icons-section {
+    background-color: #1e1a13;
+}
+
+.fontweight300{
+    font-weight: 300;
+}
+
+.fontweight500{
+    font-weight: 500;
+}
+
+h1 {
+    size: 50px;
+}
+
+h2 {
+    size: 40px;
+}
+
+h1,h2{
+    margin-top: 7px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+#figureiguanagrande {
+    margin-top: 7px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#iguanagrande {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.contenedoriguanatexto img {
+    width: 30%;
+    height: 68%;
+    vertical-align: middle;
+}
+
+.contenedoriguanatexto p {
+    width: 45%;
+    height: 56%;
+    size: 16px;
+    margin-right: 10%;
+    text-align: justify;
+    vertical-align: middle;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.contenedoriguanatexto, .icons-section, .contenedortrioiguanas, footer {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.contenedoriguanatexto p, .contenedoriguanatexto img {
+    display:inline-block;
+}
+
+.icons-section h2 {
+    margin-bottom: 4%;
+}
+
+.icons-section section div {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    color: #ffffff; 
+}
+
+.icons-section section div i, .icons-section section div p {
+    display: block;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+i {
+    font-size: 4vw;
+}
+
+.margenicon {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.icons-section section div p {
+    size: 24px;
+}
+
+.contenedortrioiguanas figure img {
+    display: inline-block;
+}
+
+.contenedortrioiguanas figure {
+    width: 100%;
+    height: 100%;
+}
+
+.trioiguanas {
+    width: 30%;
+    height: 15vw;
+    object-fit: fill;
+    box-sizing: border-box;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+footer, footer a {
+    background-color:  #1e1a13;
+    color: #ffffff;
+    size: 20px;
+    text-decoration: none;
+}
